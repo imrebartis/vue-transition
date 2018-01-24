@@ -6,7 +6,9 @@ new Vue({
   el: '#app',
   data: function data() {
     return {
-      isShowing: false
+      isShowing: false,
+      bkClass: 'bk',
+      blurClass: 'blur'
     };
   },
 

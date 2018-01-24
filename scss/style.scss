@@ -37,18 +37,19 @@ h4 {
   position: absolute;
 }
 
-// .fade-enter-active, .fade-leave-active {
-//   transition: opacity 0.25s ease-out;
-// }
-
-.fade-enter-active {
-  transition: opacity 0.25s ease-out;
-}
-
-.fade-leave-active {
-  transition: opacity 0.25s ease-in;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.2s ease-out;
 }
 
 .fade-enter, .fade-leave-to {
   opacity: 0;
+}
+
+.bk {
+  transition: all 0.05s ease-out;
+}
+
+.blur {
+  filter: blur(1px);
+  opacity: 0.4;
 }
